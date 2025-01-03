@@ -16,7 +16,7 @@ button.addEventListener("click",async () => {
     }
     
     catch(error) {
-        placeholder.innerText=result.slip.advice;
+        placeholder.innerText=error;
 
     }
 });
